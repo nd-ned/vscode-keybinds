@@ -159,5 +159,21 @@
         "key": "ctrl+down",
         "command": "-scrollLineDown",
         "when": "textInputFocus"
+    },
+    {
+        "key": "alt+'",
+        "command": "workbench.action.terminal.moveToLineEnd"
+    },
+    {
+        "key": "alt+h",
+        "command": "workbench.action.terminal.moveToLineStart"
+    },
+    {
+        "key": "alt+'",
+        "command": "cursorLineEnd"
+    },
+    {
+        "key": "alt+h",
+        "command": "cursorLineStart"
     }
 ]
